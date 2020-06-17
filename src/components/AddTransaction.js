@@ -4,9 +4,6 @@ export const AddTransaction = () => {
 
     const [description, setDesciption] = useState();
     const [transactionAmmount, setTransactionAmmount] = useState();
-    
-
-
 
     return (
         <div>
