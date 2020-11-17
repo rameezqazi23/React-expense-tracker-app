@@ -8,7 +8,8 @@ import { Transaction } from './Transaction'
 
 export const TransactionHistory = () => {
     const { transactions } = useContext(GlobalContext);
-    console.log(transactions)
+
+    console.log("transactions==>",transactions)
 
     return (
         <div>
